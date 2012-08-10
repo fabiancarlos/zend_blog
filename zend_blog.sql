@@ -1,0 +1,10 @@
+
+CREATE TABLE IF NOT EXISTS `posts`(
+	`id` INT(8) NOT NULL AUTO_INCREMENT,
+	`titulo` VARCHAR(200) NOT NULL,
+	`chamada` TEXT NOT NULL,
+	`texto` TEXT NOT NULL,
+	`registro` DATETIME,
+	PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
